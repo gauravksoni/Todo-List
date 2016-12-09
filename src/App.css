@@ -1,0 +1,180 @@
+body {
+  background-color: #f5f5f5;
+  overflow: auto; }
+
+.mainapp, .inputodo {
+  background-color: #fff;
+  width: 39%;
+  height: auto;
+  border-bottom-style: inset;
+  margin-left: 32%;
+  margin-top: -0.6%;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  font-family: -webkit-pictograph;
+  font-weight: inherit;
+  font-size: large; }
+
+.inputodo {
+  background: #fff;
+  font-size: 42px;
+  margin-left: 32%;
+  margin-top: 1%;
+  margin-bottom: -1.5%;
+  position: relative;
+  width: 38.8%;
+  color: black;
+  text-align: center;
+  font-weight: lighter;
+  border: none; }
+
+.editodo {
+  background: #fff;
+  font-size: 19px;
+  margin-left: 10%;
+  margin-top: 59px;
+  margin-bottom: -1.5%;
+  position: absolute;
+  width: auto;
+  color: black;
+  text-align: center;
+  font-weight: lighter;
+  border-style: groove;
+  z-index: 1000;
+  height: auto; }
+
+.editmode {
+  margin-left: 81%;
+  display: -webkit-box;
+  text-decoration: none;
+  margin-top: -24px; }
+
+
+.save {
+  margin-left: 24%;
+  display: -webkit-box;
+  z-index: 1000;
+  margin-bottom: 0%; }
+
+.item {
+  border-bottom: 1px dotted #ccc;
+  text-indent: 50px;
+  height: 81%;
+  padding: 2px;
+  text-transform: capitalize;
+  color: green;
+  width: auto;
+  text-indent: 35px;
+  padding-bottom: 13px; }
+  .item .destroy {
+    width: 18px;
+    height: 17px;
+    position: absolute;
+    content: '\2716';
+    display: inline-block;
+    font-size: 15px;
+    text-align: right;
+    line-height: 21px;
+    color: maroon;
+    margin-left: 86%;
+    font-weight: bold;
+    border: solid;
+    text-indent: 1%;
+    cursor: pointer;
+    border-color: transparent;
+    visibility: hidden;
+    margin-top: -22px; }
+  .item:hover .destroy {
+    visibility: visible; }
+
+.option-input {
+  -webkit-appearance: none;
+  top: 19.33333px;
+  width: 20px;
+  height: 21px;
+  background: gainsboro;
+  border-radius: 82%;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+  margin-left: -8%;
+  margin-right: 7%;
+  MARGIN-BOTTOM: 3%; }
+  .option-input:checked::before {
+    width: 22px;
+    height: 17px;
+    position: absolute;
+    content: '\2716';
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    line-height: 21px;
+    color: grey; }
+
+.line {
+  text-decoration: line-through;
+  color: red;
+  text-transform: capitalize;
+  text-indent: 50px;
+  height: 81%;
+  padding: 2px;
+  width: auto;
+  text-indent: 35px;
+  padding-bottom: 0px; }
+
+.decor {
+  list-style: none; }
+
+.newtodo {
+  text-decoration: none;
+  text-transform: capitalize;
+  text-indent: 50px;
+  height: 81%;
+  padding: 2px;
+  color: green;
+  width: auto;
+  text-indent: 35px;
+  padding-bottom: 0px;}
+
+#heading {
+  text-align: center;
+  font-family: -webkit-pictograph;
+  font-size: -webkit-xxx-large;
+  font-weight: inherit;
+  color: burlywood;
+  margin-bottom: 2%;
+  margin-left: 3%; }
+
+#all {
+  width: 18px;
+  height: 17px;
+  position: absolute;
+  content: '\2716';
+  display: inline-block;
+  font-size: 20px;
+  text-align: right;
+  line-height: 21px;
+  color: maroon;
+  margin-left: -38%;
+  float: left;
+  margin-top: 2.6%;
+  font-weight: lighter;
+  border: solid;
+  text-indent: 1%;
+  cursor: pointer;
+  border-color: transparent;
+  text-indent: 1px; }
+
+::-webkit-input-placeholder {
+  color: gray;
+  opacity: .2; }
+
+  #sortbutton{
+    margin-left: 10%;
+  }
+
+/*# sourceMappingURL=App.css.map */
+
+/*# sourceMappingURL=App.css.map */
