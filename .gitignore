@@ -16,5 +16,5 @@ build
 npm-debug.log
 
 # Ignore docs files
-styles/.sass-cache
-styles/.sass-cache/*
+./src/.sass-cache
+./src/.sass-cache/*
