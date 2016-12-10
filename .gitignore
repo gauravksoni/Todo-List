@@ -11,5 +11,6 @@ build
 
 # misc
 .DS_Store
+.Readme.md
 .env
 npm-debug.log
