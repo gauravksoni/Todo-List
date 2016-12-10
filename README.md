@@ -2,7 +2,7 @@
  
 
 
-![Screenshot](Todo.png)
+![Screenshot](./src/Style/Todo.png)
 
 
 A new Todo gets added into list on press of "enter key".
