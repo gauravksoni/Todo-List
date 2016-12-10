@@ -18,3 +18,4 @@ npm-debug.log
 # Ignore docs files
 .sass-cache/
 *.css.map
+package.json
