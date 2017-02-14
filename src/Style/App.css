@@ -31,30 +31,15 @@ body {
 .editodo {
   background: #fff;
   font-size: 19px;
-  margin-left: 10%;
-  margin-top: 59px;
-  margin-bottom: -1.5%;
-  position: absolute;
-  width: auto;
+  position: relative;
+   width: auto;
   color: black;
   text-align: center;
   font-weight: lighter;
   border-style: groove;
-  z-index: 1000;
-  height: auto; }
-
-.editmode {
-  margin-left: 81%;
-  display: -webkit-box;
-  text-decoration: none;
-  margin-top: -24px; }
-
-
-.save {
-  margin-left: 24%;
-  display: -webkit-box;
-  z-index: 1000;
-  margin-bottom: 0%; }
+  z-index: 1;
+  top: -1em;
+ }
 
 .item {
   border-bottom: 1px dotted #ccc;
